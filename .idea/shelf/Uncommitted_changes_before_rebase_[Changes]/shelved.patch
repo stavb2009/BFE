@@ -1,0 +1,122 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"082c8488-120a-4a2b-b59c-1d5187aa8703\" name=\"Changes\" comment=\"split to folders\">\n      <change afterPath=\"$PROJECT_DIR$/code/main.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/code/pre.py\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Rebase.Settings\">\n    <option name=\"NEW_BASE\" value=\"main\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\n      <list>\n        <option value=\"stavb2009 &lt;stavb@campus.technion.ac.il&gt;\" />\n      </list>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Fl6Ix583rn1v37Zykyz7cxDPix\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/code/main.py\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"pre\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"$USER_HOME$/dockvenv/bin/python\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/code\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <module name=\"\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/code/main.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.pre\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"082c8488-120a-4a2b-b59c-1d5187aa8703\" name=\"Changes\" comment=\"\" />\n      <created>1665054248700</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1665054248700</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"new order\">\n      <created>1665078277513</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665078277513</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"new order\">\n      <created>1665078510766</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665078510766</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"split to folders\">\n      <created>1665086318939</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665086318939</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"split to folders\">\n      <created>1665087313722</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665087313722</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"split to folders\">\n      <created>1665087319684</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665087319684</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"split to folders\">\n      <created>1665231014391</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1665231014391</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"7\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"new order\" />\n    <MESSAGE value=\"split to folders\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"split to folders\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision db9065fa8b9f780ed594cfb455f82427bdad99b4)
++++ b/.idea/workspace.xml	(date 1665234965968)
+@@ -1,10 +1,67 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="082c8488-120a-4a2b-b59c-1d5187aa8703" name="Changes" comment="split to folders">
++    <list default="true" id="082c8488-120a-4a2b-b59c-1d5187aa8703" name="Changes" comment="first attempt for main code">
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/code/BFEpreprocessing.py" afterDir="false" />
+       <change afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/code/pre.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/change3.mov" beforeDir="false" afterPath="$PROJECT_DIR$/Data/change3.mov" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/convert_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/convert_data.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cut2.mov" beforeDir="false" afterPath="$PROJECT_DIR$/Data/cut2.mov" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cut2108.mov" beforeDir="false" afterPath="$PROJECT_DIR$/Data/cut2108.mov" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frame_015901.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frame_015901.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frame_015901_new.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frame_015901_new.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_013460.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_013460.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_013461.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_013461.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_013462.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_013462.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_013466.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_013466.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_013470.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_013470.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_013496.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_013496.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_013505.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_013505.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_013514.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_013514.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_013543.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_013543.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_014392.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_014392.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_015901.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_015901.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_016705.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_016705.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_019515.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_019515.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_019681.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_019681.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_020272.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_020272.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_020673.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_020673.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_021598.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_021598.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_023350.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_023350.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_023531.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_023531.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_023986.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_023986.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_025638.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_025638.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_027640.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_027640.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_027705.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_027705.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_027816.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_027816.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_029559.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_029559.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_038484.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_038484.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_038833.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_038833.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_038891.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_038891.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_038933.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_038933.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_043050.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_043050.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_043111.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_043111.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_043221.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_043221.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_045713.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_045713.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_045771.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_045771.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_046062.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_046062.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_051773.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_051773.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_051945.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_051945.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames from yosi/frame_053587.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames from yosi/frame_053587.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image (1).png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image (10).png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image (10).png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image (2).png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image (3).png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image (3).png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image (4).png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image (4).png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image (5).png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image (5).png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image (6).png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image (6).png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image (7).png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image (7).png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image (8).png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image (8).png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image (9).png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image (9).png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/frames/MicrosoftTeams-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/frames/MicrosoftTeams-image.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pre.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/temp.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -28,6 +85,7 @@
+       </list>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="RESET_MODE" value="SOFT" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -123,7 +181,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1665231014391</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="first attempt for main code">
++      <created>1665233706303</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1665233706303</updated>
++    </task>
++    <task id="LOCAL-00008" summary="first attempt for main code">
++      <created>1665233843007</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1665233843007</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -140,6 +212,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="new order" />
+     <MESSAGE value="split to folders" />
+-    <option name="LAST_COMMIT_MESSAGE" value="split to folders" />
++    <MESSAGE value="first attempt for main code" />
++    <option name="LAST_COMMIT_MESSAGE" value="first attempt for main code" />
+   </component>
+ </project>
+\ No newline at end of file
