@@ -79,13 +79,14 @@ def colon_seg(img_path, show=0):
         plt.show()
 
 
-def load_video(path):
+def load_video(path,show=1):
     # load the video from path
     cap = cv2.VideoCapture(path)
     while (cap.isOpened()):
         ret, frame = cap.read()
         b_frame = np.uint8(1000 * threshold(F_frangi(exposure.equalize_adapthist(frame[:, :, 1], clip_limit=0.03))))
-        cv2.imshow('frame', b_frame)
+        if show:
+            cv2.imshow('frame', b_frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     cap.release()

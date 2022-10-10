@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="082c8488-120a-4a2b-b59c-1d5187aa8703" name="Changes" comment="split to folders">
-      <change afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
+    <list default="true" id="22dc92b3-6f0c-4e4c-92be-c1fa8b6dc43c" name="Changes" comment="Add files via upload">
+      <change afterPath="$PROJECT_DIR$/code/generate_mask.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/pre.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/BFEpreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/BFEpreprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,21 +19,24 @@
       </list>
     </option>
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="main" />
-  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="stavb2009 &lt;stavb@campus.technion.ac.il&gt;" />
+        <option value="OfirBenYosef &lt;73785427+ofirbenyosef@users.noreply.github.com&gt;" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="stav" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Fl6Ix583rn1v37Zykyz7cxDPix" />
+  <component name="ProjectId" id="2Fr4QIGpOKoFFOu9bIQeqfgapf9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,11 +45,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/main.py" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject2/main.py" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
-  <component name="RunManager">
-    <configuration name="pre" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -66,64 +70,56 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.pre" />
-      </list>
-    </recent_temporary>
+    <configuration name="prepare data" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/dockvenv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/robot-surgery-segmentation-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/robot-surgery-segmentation-master/prepare_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.prepare data" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="082c8488-120a-4a2b-b59c-1d5187aa8703" name="Changes" comment="" />
-      <created>1665054248700</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1665054248700</updated>
-    </task>
-    <task id="LOCAL-00001" summary="new order">
-      <created>1665078277513</created>
+    <task id="LOCAL-00001" summary="Add files via upload">
+      <created>1665236542450</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1665078277513</updated>
+      <updated>1665236542450</updated>
     </task>
-    <task id="LOCAL-00002" summary="new order">
-      <created>1665078510766</created>
+    <task id="LOCAL-00002" summary="fixup! new main (hopefully)">
+      <created>1665236679549</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1665078510766</updated>
+      <updated>1665236679549</updated>
     </task>
-    <task id="LOCAL-00003" summary="split to folders">
-      <created>1665086318939</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1665086318939</updated>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22dc92b3-6f0c-4e4c-92be-c1fa8b6dc43c" name="Changes" comment="Add files via upload" />
+      <created>1665236851366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665236851366</updated>
     </task>
-    <task id="LOCAL-00004" summary="split to folders">
-      <created>1665087313722</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1665087313722</updated>
-    </task>
-    <task id="LOCAL-00005" summary="split to folders">
-      <created>1665087319684</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1665087319684</updated>
-    </task>
-    <task id="LOCAL-00006" summary="split to folders">
-      <created>1665231014391</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1665231014391</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,15 +127,39 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="stav" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new order" />
-    <MESSAGE value="split to folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="split to folders" />
+    <MESSAGE value="new main (hopefully)" />
+    <MESSAGE value="Add files via upload" />
+    <MESSAGE value="fixup! new main (hopefully)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixup! new main (hopefully)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/main.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
