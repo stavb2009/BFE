@@ -123,6 +123,9 @@ def segment_images(path):
         binary_frame = threshold(F_frangi(frame))
         find_vessels(binary_frame)
 
+def resize_img(img_path,width,height):
+    pass
+
 
 if __name__ == '__main__':
     path = r'Data/frames'
