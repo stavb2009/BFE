@@ -60,6 +60,7 @@ def mask_overlay(image, mask, color=(0, 255, 0)):
     """
     Helper function to visualize mask on the top of the car
     """
+    if image.shape != mask.shape : image = image[0:mask.shape[0],0:mask.shape[1],:]
     mask = np.dstack((mask, mask, mask)) * np.array(color)
     mask = mask.astype(np.uint8)
     weighted_sum = cv2.addWeighted(mask, 0.5, image, 0.5, 0.)
@@ -87,9 +88,9 @@ def generate_mask(model_path,img_file_name, model_type,show=1,cut=0):
         input_image = torch.unsqueeze(img_to_tensor(img_transform(p=1)(image=image)['image']).cuda(), dim=0)
     mask = model(input_image)
     mask_array = mask.data[0].cpu().numpy()[0]
-    mask_overlayed = mask_overlay(image, (mask_array > 0).astype(np.uint8))
+    #mask_overlayed = mask_overlay(image, (mask_array > 0).astype(np.uint8))
     if show :
         imshow(mask_array > 0)
         imshow(mask_overlayed)
 
-    return mask_array,mask_overlayed
+    return mask_array

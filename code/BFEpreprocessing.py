@@ -54,7 +54,7 @@ def video_stab(input_path,output_path):
     # stabilizer.stabilize(input_path='cut2.mov', output_path='stable_video.avi')
 
 
-def colon_seg(img_path, show=0):
+def colon_seg(img_path, ax = 0):
     # img = data.astronaut()
     img = cv2.imread(img_path)
     img = rgb2gray(img)
@@ -68,15 +68,13 @@ def colon_seg(img_path, show=0):
 
     snake = active_contour(img, init, alpha=0.015, beta=10, gamma=0.001)
 
-    if show:
-        fig, ax = plt.subplots(figsize=(7, 7))
-        ax.imshow(img, cmap=plt.cm.gray)
-        ax.plot(init[:, 1], init[:, 0], '--r', lw=3)
-        ax.plot(snake[:, 1], snake[:, 0], '-b', lw=3)
-        ax.set_xticks([]), ax.set_yticks([])
-        ax.axis([0, img.shape[1], img.shape[0], 0])
-
-        plt.show()
+    if not ax: fig, ax = plt.subplots(figsize=(7, 7))
+    ax.imshow(img, cmap=plt.cm.gray)
+    ax.plot(init[:, 1], init[:, 0], '--r', lw=3)
+    ax.plot(snake[:, 1], snake[:, 0], '-b', lw=3)
+    ax.set_xticks([]), ax.set_yticks([])
+    ax.axis([0, img.shape[1], img.shape[0], 0])
+    if not ax :plt.show()
 
 
 def load_video(path,show=1):
@@ -87,6 +85,7 @@ def load_video(path,show=1):
         b_frame = np.uint8(1000 * threshold(F_frangi(exposure.equalize_adapthist(frame[:, :, 1], clip_limit=0.03))))
         if show:
             cv2.imshow('frame', b_frame)
+            plt.axis('off')
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     cap.release()
@@ -105,7 +104,7 @@ def find_vessels(image):
     hist, bin_edges = np.histogram(orientations, density=True)
     _ = plt.hist(orientations)  # arguments are passed to np.histogram
     plt.title("Histogram of orientation")
-    plt.show()
+    #plt.show()
 
 
 def ploting(path):
