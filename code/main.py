@@ -50,8 +50,9 @@ def show_models(images,models_path):
                 model_path = os.path.join(root, filename)
                 model_type = (root.split("/")[-1]).split("_")[0]
                 model_name = model_type +" "+ filename
-                mask_array,mask_overlayed=gm.generate_mask(model_path, img, model_type, show=0, cut=[576,704])
-
+                mask_array=gm.generate_mask(model_path, img, model_type, show=0, cut=[576,704])
+                mask = (mask_array > 0).astype(np.uint8)
+                mask_overlayed = gm.mask_overlay(gm.load_image(img), mask)
                 # fig.add_subplot(rows, columns, i)
                 # plt.imshow(mask_array>0)
                 # plt.axis('off')
@@ -193,6 +194,7 @@ def main():
                     labels.append(os.path.join(root, filename))
                     nums.append((root.split('/')[4]).split("_")[1])
     show_images(images, best_model_path, best_model_type,labels =labels,nums=nums)
+
 
     pass
 
