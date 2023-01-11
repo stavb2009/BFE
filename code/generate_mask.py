@@ -70,7 +70,7 @@ def mask_overlay(image, mask, color=(0, 255, 0)):
     img[ind] = weighted_sum[ind]
     return img
 
-def generate_mask(model_path,img_file_name, model_type,show=1,cut=0):
+def generate_mask(model_path,img, model_type,show=True,cut=0, overlay = False):
     """
     :param model_path:
     :param img_file_name:
@@ -79,7 +79,7 @@ def generate_mask(model_path,img_file_name, model_type,show=1,cut=0):
     :return:
     """
     model = get_model(model_path, model_type=model_type)
-    image = load_image(img_file_name)
+    image = img
     if cut : image = image[0:cut[0],0:cut[1],:]
     if show :
         imshow(image)
@@ -88,9 +88,9 @@ def generate_mask(model_path,img_file_name, model_type,show=1,cut=0):
         input_image = torch.unsqueeze(img_to_tensor(img_transform(p=1)(image=image)['image']).cuda(), dim=0)
     mask = model(input_image)
     mask_array = mask.data[0].cpu().numpy()[0]
-    #mask_overlayed = mask_overlay(image, (mask_array > 0).astype(np.uint8))
+    if overlay: mask_overlayed = mask_overlay(image, (mask_array > 0).astype(np.uint8))
     if show :
         imshow(mask_array > 0)
         imshow(mask_overlayed)
 
-    return mask_array
+    return mask_overlayed if overlay else mask_array
